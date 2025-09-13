@@ -1,0 +1,8 @@
+services:
+      spur_ros:
+        image: spur_ros
+        container_name: spur_ros
+        tty: true
+        stdin_open: true
+        ports:
+          - "9090:9090" # Maps host port 9090 to container port 9090
